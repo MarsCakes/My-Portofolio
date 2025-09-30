@@ -4,7 +4,7 @@
     <div class="container mt-4 fluid text-center">
         <div class="align-items-center">
             <h1>Welcome to My Portofolio!</h1>
-            <img id="my_Picture" src="{{asset('images/myPicture.jpeg')}}" alt="myPicture" class="img-fluid-rounded"
+            <img id="my_Picture" src="{{asset('images/myPicture.jpeg')}}" alt="myPicture" class="img-fluid-rounded mt-4"
                 style="max-width: 300px;">
             <p class="mt-4">Hello! My name is Imanuel Peter Phang, I am a Software Engineering student of Bina Nusantara
                 University and
@@ -13,9 +13,27 @@
     </div>
 @endsection
 
+@section('aboutme')
+    <div class="container mt-4 fluid text-center">
+        <div class="align-items-center">
+            <h2 id="aboutSection">About Me</h2>
+            <p class="mt-4">I am a 20-year-old Software Engineering student at Bina Nusantara University with a strong
+                passion for web and software development. While I am still on my learning journey, I constantly seek
+                opportunities to expand my skills and challenge myself with new technologies. <br>
+
+                I have some experience working with PHP, Java and HTML through personal and university projects, and I
+                am
+                passionate about making sure users have a great experience when they use my website.<br>
+
+                I love problem solving and hope to be able to grow further each day through challenging myself.
+            </p>
+        </div>
+    </div>
+@endsection
+
 @section('portofolio')
     <h2 class="text-center">My Portofolio</h2>
-    <div class="container mt-8">
+    <div id="portofolioSection" class="container mt-8">
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
